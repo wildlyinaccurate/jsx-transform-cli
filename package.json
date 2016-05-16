@@ -1,0 +1,31 @@
+{
+  "name": "jsx-transform-cli",
+  "version": "0.1.0",
+  "description": "A command line interface for jsx-transform",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "test": "node test/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildlyinaccurate/jsx-transform-cli.git"
+  },
+  "keywords": [
+    "jsx",
+    "jsx-transform",
+    "html",
+    "react",
+    "mercury"
+  ],
+  "author": "Joseph Wynn <joseph@wildlyinaccurate.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildlyinaccurate/jsx-transform-cli/issues"
+  },
+  "homepage": "https://github.com/wildlyinaccurate/jsx-transform-cli#readme",
+  "dependencies": {
+    "jsx-transform": "^2.3.0",
+    "minimist": "^1.2.0"
+  }
+}
